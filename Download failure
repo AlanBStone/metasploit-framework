@@ -1,0 +1,12 @@
+I get the following error when attempting to install Metasploit:
+
+Alans-MacBook-Pro:etc alanstone$ brew cask install metasploit
+==> Satisfying dependencies
+All Formula dependencies satisfied.
+==> Downloading https://osx.metasploit.com/metasploit-framework-5.0.35+20190629175824-1rapid7-1.pkg
+
+curl: (22) The requested URL returned error: 404 Not Found
+Error: Download failed on Cask 'metasploit' with message: Download failed: https://osx.metasploit.com/metasploit-framework-5.0.35+20190629175824-1rapid7-1.pkg
+Alans-MacBook-Pro:etc alanstone$ 
+
+It appears the url is incorrect.
